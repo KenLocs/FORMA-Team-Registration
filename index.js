@@ -509,5 +509,5 @@ Your registration has been sent for staff review.`,
 
     }
 });
-
+console.log("TOKEN EXISTS:", !!process.env.TOKEN);
 client.login(process.env.TOKEN);
