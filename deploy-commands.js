@@ -10,6 +10,14 @@ const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('
 
 for (const file of commandFiles) {
     const command = require(path.join(commandsPath, file));
+
+    console.log(`Loading command: ${file}`);
+
+    if (!command.data) {
+        console.log(`❌ ${file} does not export "data"`);
+        continue;
+    }
+
     commands.push(command.data.toJSON());
 }
 
