@@ -140,7 +140,7 @@ client.on(Events.InteractionCreate, async interaction => {
                 });
             }
             
-            const approvalChannel = interaction.client.channels.cache.get('1518265149541191750');
+            const approvalChannel = interaction.client.channels.cache.get('1525533545186197554');
             
             const playerMentions = mainPlayers
             .map(id => `<@${id}>`)
@@ -346,7 +346,7 @@ Your registration has been sent for staff review.`,
 
             const logChannel =
             interaction.client.channels.cache.get(
-                '1517544055653928991'
+                '1525533827894874150'
             );
             
             if (logChannel) {
@@ -386,7 +386,7 @@ Your registration has been sent for staff review.`,
             
             const approvalChannel =
             interaction.client.channels.cache.get(
-                '1518265149541191750'
+                '1525533545186197554'
             );
             
             const message =
@@ -429,7 +429,7 @@ Your registration has been sent for staff review.`,
 
             const logChannel =
             interaction.client.channels.cache.get(
-                '1517544055653928991'
+                '1525533827894874150'
             );
             
             if (logChannel) {

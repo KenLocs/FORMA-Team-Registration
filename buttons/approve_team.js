@@ -139,7 +139,7 @@ module.exports = {
         });
 
         const approvedChannel = 
-        interaction.client.channels.cache.get('1517543983616884797');
+        interaction.client.channels.cache.get('1525533110949642250');
 
         if (approvedChannel) {
 
@@ -149,7 +149,7 @@ module.exports = {
 
             const logChannel =
             interaction.client.channels.cache.get(
-                '1517544055653928991'
+                '1525533827894874150'
             );
             
             if (logChannel) {

@@ -50,7 +50,7 @@ module.exports = {
 
         const logChannel =
         interaction.client.channels.cache.get(
-            '1517544055653928991'
+            '1525533827894874150'
         );
         
         if (logChannel) {
